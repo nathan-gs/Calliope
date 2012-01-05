@@ -1,0 +1,24 @@
+<phpunit backupGlobals="true"
+         backupStaticAttributes="false"
+         bootstrap="./tests/bootstrap.php"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         forceCoversAnnotation="false"
+         mapTestClassNameToCoveredClassName="false"
+         processIsolation="false"
+         stopOnError="false"
+         stopOnFailure="false"
+         stopOnIncomplete="false"
+         stopOnSkipped="false"
+         syntaxCheck="true"
+         testSuiteLoaderClass="PHPUnit_Runner_StandardTestSuiteLoader"
+         strict="true"
+         verbose="true">
+    <testsuites>
+        <testsuite name="Calliope">
+            <directory>./tests</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>

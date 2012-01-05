@@ -1,0 +1,3 @@
+[submodule "tests/vendor/UniversalClassLoader"]
+	path = tests/vendor/UniversalClassLoader
+	url = git://github.com/nathan-gs/UniversalClassLoader.git
